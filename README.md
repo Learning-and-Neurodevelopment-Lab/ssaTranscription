@@ -12,9 +12,6 @@ This project is a **first draft** transcription pipeline for Sesame Street audio
 ## Files
 
 - `transcriptionwithspeakersv1.py`: Main script for processing media files
-- `audio.wav`: Sample extracted audio
-- `transcription.txt`: Human-readable transcript
-- `transcription.json`: Structured output
 
 ## Status
 
