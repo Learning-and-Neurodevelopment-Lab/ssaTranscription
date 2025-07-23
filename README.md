@@ -1,4 +1,4 @@
-# SSA Transcription
+# ssaTranscribe Overview
 
 **ssaTranscribe** is an audio-to-text transcription pipeline built from open-source, self-hosted tools to transcribe original _Sesame Street_ episodes and support the expansion of the [_Sesame Street_ Archive (SSA)](https://www.sesamestreetarchive.io/).
 - Uses WhisperX for transcription
