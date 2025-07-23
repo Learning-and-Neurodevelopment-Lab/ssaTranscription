@@ -1,9 +1,6 @@
 # Pipeline Overview
 
-**ssaTranscribe** is an audio-to-text transcription pipeline built from open-source, self-hosted tools to transcribe original _Sesame Street_ episodes and support the expansion of the [_Sesame Street_ Archive (SSA)](https://www.sesamestreetarchive.io/).
-- Uses WhisperX for transcription
-- Includes speaker diarization
-- Designed to process and label speech from multi-character children’s media
+**ssaTranscribe** is an audio-to-text transcription pipeline built from open-source, self-hosted tools to transcribe original _Sesame Street_ episodes and support the expansion of the _Sesame Street_ Archive (SSA). Its capabilities include multilingual transcription, keyword detection, speaker diarization, and voice matching.
 
 ## Key Aims (Jul. - Aug. 2025)
 
