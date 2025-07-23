@@ -1,6 +1,6 @@
 # SSA Transcription
 
-This project is a **first draft** transcription pipeline for Sesame Street audio/video files.
+**ssaTranscribe** is an audio-to-text transcription pipeline built from open-source, self-hosted tools to transcribe original _Sesame Street_ episodes and support the expansion of the [_Sesame Street_ Archive (SSA)](https://www.sesamestreetarchive.io/).
 
 ## Features
 
