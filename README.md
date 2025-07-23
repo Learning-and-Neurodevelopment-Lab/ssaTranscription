@@ -29,8 +29,16 @@ ssaTranscribe/
 
 ## Data Flow
 
-- Table of input and output file 'categories' and their formats (i.e., Outputs: Transcript = `.txt` and `.json`)
-- Diagram of how data are received, preprocessed (if applicable), and processed
+This table maps the flow of data through the `ssaTranscribe` pipeline, from original _Sesame Street_ episode to readable, searchable output:
+
+| Stage                  | Input Format    | Process (File / Script)                             | Output Format                     | Output Location        |
+| ---------------------- | --------------- | --------------------------------------------------- | --------------------------------- | ---------------------- |
+| Audio Ingestion        | `.wav`, `.mp3`  | *Raw input in* `data/raw/`                          | (same)                            | `data/raw/`            |
+| Segmentation / Prep    | `.wav`, `.mp3`  | `scripts/segment.py` *(if used)*                    | `.wav` (cleaned/trimmed)          | `data/processed/`      |
+| Transcription (ASR)    | `.wav`          | `scripts/transcribe.py` using `models/asr_model.pt` | `.txt`, `.json`                   | `outputs/transcripts/` |
+| Diarization (Optional) | `.wav`          | `scripts/diarize.py`                                | `.json` speaker tags              | `outputs/transcripts/` |
+| Postprocessing         | `.json`, `.txt` | `scripts/postprocess.py`                            | `.srt`, cleaned `.json` or `.txt` | `outputs/transcripts/` |
+| Configuration          | `.yaml`         | `configs/default.yaml`                              | (used throughout)                 | —                      |
 
 ## Implementation
 
