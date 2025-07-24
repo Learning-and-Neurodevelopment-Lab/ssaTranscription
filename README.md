@@ -2,7 +2,7 @@
 
 `ssaTranscribe` is an open-source, self-hosted pipeline that delivers audio-to-text speaker diarization, voice matching, multilingual vocabulary, and keyword detection in end-to-end transcriptions of episodic media.
 
-Developed to support the expansion of the _Sesame Street_ Archive (SSA), the primary goal of `ssaTranscribe` is to transcribe 4,397 original _Sesame Street_ episodes aired between 1969-2018, enabling a multimodal approach to scaling the SSA from ~5,000 to 35,000 labeled images across `face`, `number`, `place`, and `word` object categories.
+Developed to support the expansion of the <a href="https://www.sesamestreetarchive.io/" target="_blank" rel="noopener noreferrer">_Sesame Street_ Archive (SSA)</a>, the primary goal of `ssaTranscribe` is to transcribe 4,397 original _Sesame Street_ episodes aired between 1969-2018, enabling a multimodal approach to scaling the SSA from ~5,000 to 35,000 labeled images across `face`, `number`, `place`, and `word` object categories.
 
 By surfacing rich dialogue from the world's most longstanding children’s educational television series, `ssaTranscribe` identifies visually imaginative, stylistically diverse scenes that reflect children's experiences of wonder, play, and embodied learning—strategically curating the magical content behind the SSA.
 
